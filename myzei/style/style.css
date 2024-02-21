@@ -1,0 +1,241 @@
+p, a, table, button, input, span /*шрифт*/
+{font-size: 21px; font-family: 'Couriel New', Couriel, monospace;}
+
+h1, h2, h3 /*стиль для заголовков*/
+{color: rgb(255, 196, 86); font-family: 'Couriel New', Couriel, monospace; text-align: center;}
+
+.center {text-align: center;} /*выравнивание по центру*/
+button {font-size: 15px;} /*размер шрифта в кнопке*/
+a {text-decoration: none;} /*убрать подчеркивание ссылки*/
+hr {border: 1px solid black;} /*размер линии*/
+
+/*шапка*/
+.header {
+text-align: left;
+padding: 10px;
+background: linear-gradient(rgb(255, 176, 30), rgb(255, 197, 91));
+}
+
+.header img {
+width: 180px;
+height: 80px;
+}
+
+.header_right {
+margin-top: 30px;
+float: right;
+}
+
+.header a, .header p, .menu a {
+margin: 10px;
+justify-content: center;
+text-decoration: none;
+color: black;
+}
+
+/*стиль для доп меню*/
+.menu {
+background-color: rgb(44, 44, 44);
+display: flex;
+justify-content: center;
+padding: 8px;
+border-radius: 10px;
+}
+
+.menu a {color: rgb(255, 255, 255);}
+
+/*слоган*/
+.slogan {text-align: center;}
+
+.slogan p {
+width: 650px;
+margin: auto;
+font-size: 23px;
+}
+
+.slogan img {
+width: 500px;   
+height: 200px;
+margin: 20px;
+}
+
+/*заголовок*/
+.title {
+text-align: center;
+padding: 10px;
+margin: 10px;
+border: 3px solid rgb(44, 44, 44);
+background: linear-gradient(rgb(255, 176, 30), rgb(255, 197, 91));
+}
+
+.title h1, .news h2 {color: rgb(44, 44, 44);}
+
+/*контейнер карточек товаров*/
+.afisha_card, .news_card, .footer_card, .about_muzei_card, .staff_card {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+/*карточка товара*/
+.afisha, .sobitie {
+background-color: rgb(44, 44, 44);
+margin: 10px;
+padding: 10px;
+height: 450px;
+width: 400px;
+text-align: center;
+border-radius: 5px;
+}
+
+/*карточка товара*/
+.sobitie {background-color: rgb(243, 243, 243);}
+
+/*сотрудники*/
+.staff {
+background-color: rgb(44, 44, 44);
+margin: 10px;
+padding: 10px;
+height: 500px;
+width: 400px;
+text-align: center;
+border-radius: 5px;
+}
+
+.staff img {
+width: 200px;
+height: 200px;
+margin: 10px;
+border-radius: 10px;
+}
+
+.staff hr {border: 1px solid rgb(255, 176, 30);}
+
+.afisha img, .news img, .sobitie img {
+width: 250px;
+height: 200px;
+margin: 10px;
+border-radius: 5px;
+}
+
+.afisha hr {border: 1.5px solid rgb(255, 176, 30);}
+.afisha p, .staff p {color: white;}
+
+.afisha button, .news button, .about_muzei button, .buy button, .info_bilets button {
+background-color: white;
+border-color: rgb(206, 206, 206);
+padding: 5px;
+width: 200px;
+border-radius: 5px;
+transition: 1s;
+}
+
+.afisha button:hover, .news button:hover, .about_muzei button:hover, .buy button:hover, .info_bilets button:hover {
+background-color: rgb(255, 176, 30);
+color: white;
+}
+
+.about_muzei button {margin-top: 20px;}
+
+/*новости*/
+.news {
+margin: 10px;
+padding: 10px;
+height: 850px;
+width: 550px;
+border-radius: 5px;
+background-color: rgb(243, 243, 243);
+}
+
+.news p {
+text-align: justify;
+text-indent: 20px;
+}
+
+/*подвал*/
+.footer_card {background-color: black;}
+.footer p {color: white;}
+.footer {
+width: 500px;
+text-align: center;
+}
+
+.about_muzei, .about_muzei_info {
+background-color: rgb(243, 243, 243);  
+padding: 10px;
+text-align: justify;
+border-radius: 10px;
+margin: 10px;
+width: 550px;
+}
+
+.about_muzei img {
+border-radius: 10px;
+height: 400px;
+width: 400px;
+margin: 10px;
+}
+
+.about_muzei_info {
+width: 94%; 
+margin: auto;
+}
+
+.document {
+width: 100%;
+padding: 5px;
+}
+
+.document td {
+background-color: rgb(44, 44, 44);  
+padding: 10px;
+color: white;
+}
+
+.title_table {
+width: 300px;
+text-align: center;
+}
+
+.graphick_foto {
+text-align: center;
+}
+
+.graphick_foto img {
+width: 150px;
+height: 150px;
+margin-top: 80px;
+}
+
+.buy, .bilets {
+padding: 100px;
+background-color: rgb(44, 44, 44);  
+width: 500px;
+margin: auto;
+text-align: center;
+border-radius: 10px;
+}
+
+.bilets {padding: 150px;}
+
+.buy input {
+margin: 10px;
+border-radius: 5px;
+padding: 7px;
+width: 350px;
+}
+
+.bilets button {
+margin: 10px;
+border-radius: 5px;
+padding: 10px;
+width: 300px;
+}
+
+.buy p, .buy span {color: white;}
+
+.info_bilets {
+padding: 150px;
+margin: auto;
+background-color: rgb(243, 243, 243);  
+}
